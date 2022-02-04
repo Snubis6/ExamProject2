@@ -1,0 +1,40 @@
+* {
+    background-color: #e8e0d3;
+    box-sizing: border-box;
+}
+
+.buttons{
+    width: 3vw;
+}
+
+#logo {
+    width: 25vw;
+}
+
+#cart {
+    width: 6vw;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+      border-bottom: #837f74 solid 0.15vw;
+}
+
+.names {
+    color:#837f74 ;
+    text-transform: uppercase;
+}
+
+#pic {
+    width: 100%;
+}
