@@ -7,20 +7,45 @@
 
 .buttons{
     width: 3vw;
+    height: 3vw;
+    padding-right: 10px;
 }
 
 #logo {
     width: 25vw;
+    justify-content: center;
+    align-items: center;
 }
 
 #cart {
     width: 6vw;
+    padding-right: 15px;
 }
 
 .column {
     float: left;
     width: 33.33%;
-  }
+    align-items: center;
+    
+}
+#logocontainer{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+
+#right{
+
+    justify-content: flex-end;
+    align-items: center;
+}
+.left{
+    align-items: center;
+    
+}
+section{
+    display: flex;
+}
   
 .row:after {
     content: "";
@@ -35,7 +60,13 @@
 .names {
     color:#837f74 ;
     text-transform: uppercase;
+    text-decoration: none;
 }
+.three{
+    
+    justify-content:space-between;
+}
+
 
 #pic {
     width: 100%;
