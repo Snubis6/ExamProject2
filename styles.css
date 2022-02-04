@@ -68,9 +68,36 @@
 #earth {
     width: 30%;
     float: left;
+    padding-left: 10vw;
+    padding-right: 4vw;
+    margin-bottom: 3vw;
 }
 
 #heart {
     width: 30%;
-    float: right;
+    float: left;
+    padding-left: 10vw;
+    padding-right: 4vw;
 }
+
+.sum {
+    margin-bottom: 3vw;
+    margin-top: 7vw;
+    border-bottom: #837f74 solid 0.2vw;
+}
+
+.volunter {
+    margin-top: 4vw;
+}
+
+.text h1 {
+    text-transform: uppercase;
+    color: #4d4a42;
+}
+
+.text h2 {
+    font-size: 1.5vw;
+}
+
+
+
