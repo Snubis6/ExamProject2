@@ -64,3 +64,13 @@
     text-align: center;
     color: white;
 }
+
+#earth {
+    width: 30%;
+    float: left;
+}
+
+#heart {
+    width: 30%;
+    float: right;
+}
